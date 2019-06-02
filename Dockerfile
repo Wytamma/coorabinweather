@@ -1,4 +1,4 @@
-FROM python:3.7.3-slim-stretch
+FROM arm32v6/python:3
 
 RUN pip install fastapi uvicorn
 

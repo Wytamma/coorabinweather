@@ -1,6 +1,6 @@
 FROM python:3.7.3-slim-stretch
 
-RUN pip3 install fastapi uvicorn
+RUN pip install fastapi uvicorn
 
 EXPOSE 80
 

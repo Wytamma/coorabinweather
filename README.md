@@ -15,3 +15,5 @@ confim with `lsmod | grep -i w1_`
 ## Start
 
 `docker-compose up -d`
+
+You can copy the json from `flows_example.json` for a flow that tweets the temperature every 15 min. This requires a twitter dev account (i.e. API keys).

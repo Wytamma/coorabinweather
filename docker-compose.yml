@@ -1,0 +1,7 @@
+node-red:
+  build: ./node-red
+  ports:
+    - "1880:1880"
+  volumes:
+    - ./node-red/data:/data
+  restart: always

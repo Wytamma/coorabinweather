@@ -65,7 +65,21 @@ write_files:
       pairwise=CCMP
       auth_alg=OPEN
       }
+      network={
+      ssid="TelstraE91B0B"
+      psk=2affcad74ef221086ca00ca6a16dc733d0720e70cc5113fa57f44b599a24319e
+      proto=RSN
+      key_mgmt=WPA-PSK
+      pairwise=CCMP
+      auth_alg=OPEN
+      }
     path: /etc/wpa_supplicant/wpa_supplicant.conf
+
+swap:
+   filename: /swap.img
+   size: "auto" # or size in bytes
+   maxsize: 512000000
+
 # These commands will be ran once on first boot only
 runcmd:
   # Pickup the hostname changes

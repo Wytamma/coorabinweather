@@ -4,7 +4,7 @@
 
 <https://github.com/hypriot/flash>
 
-`flash -u wifi-user-data.yml -bootconf no-uart-config.txt https://github.com/hypriot/image-builder-rpi/releases/download/v1.10.1/hypriotos-rpi-v1.10.1.img.zip`  
+`flash -u wifi-user-data.yml --bootconf no-uart-config.txt https://github.com/hypriot/image-builder-rpi/releases/download/v1.10.1/hypriotos-rpi-v1.10.1.img.zip`  
 
 ## Set up for temp sensor
 

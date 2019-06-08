@@ -11,3 +11,7 @@ sudo raspi-config
 <https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/ds18b20>
 
 confim with `lsmod | grep -i w1_`
+
+## Start
+
+`docker-compose up -d`

@@ -8,3 +8,6 @@ gpu_mem=128
 
 # Enable audio (added by raspberrypi-sys-mods)
 dtparam=audio=on
+
+# Enable w1 devices 
+dtoverlay=w1–gpio
